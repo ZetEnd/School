@@ -1,27 +1,26 @@
-CC = gcc
-CFLAGS = -Wall -Wextra -Wextra -fsanitize=leak -lm
+# Флаги компиляции и линковки
+CFLAGS = -std=c11 -Wall -Wextra -Werror -c
+LDFLAGS = -std=c11 -Wall -Wextra -Werror
 
+all: ../build/graph
 
-OBJ_DIR = ../build/
-RM_ALL = rm -rf *.o *.a *.so ../build/*
+# Линковка: создаём исполняемый файл из объектных файлов
+../build/graph: graph.o lexer.o parser.o evaluator.o
+	gcc $(LDFLAGS) ../build/graph.o ../build/lexer.o ../build/parser.o ../build/evaluator.o -o ../build/graph
 
-C_LANG = clang-format -i *.c *.h
-MAKE = make
+graph.o: graph.c lexer.h parser.h evaluator.h graph.h
+	gcc $(CFLAGS) graph.c -o ../build/graph.o
 
-all: 
-	$(CC) $(CFLAGS) calculate.c draw.c stack.c parse.c graph.c -o $(OBJ_DIR)graph
+lexer.o: lexer.c lexer.h
+	gcc $(CFLAGS) lexer.c -o ../build/lexer.o
 
+parser.o: parser.c parser.h lexer.h
+	gcc $(CFLAGS) parser.c -o ../build/parser.o
 
-build_with_render:
-	$(CC) $(CFLAGS) -DrenderString calculate.c draw.c stack.c parse.c graph.c -o $(OBJ_DIR)graph
-
-rebuild:
-	$(MAKE) clean
-	$(MAKE) all
-
-
-clang:
-	$(C_LANG)
+evaluator.o: evaluator.c evaluator.h lexer.h
+	gcc $(CFLAGS) evaluator.c -o ../build/evaluator.o
 
 clean:
-	$(RM_ALL)
+	rm -f ../build/*.o ../build/graph
+	
+rebuild: clean all
