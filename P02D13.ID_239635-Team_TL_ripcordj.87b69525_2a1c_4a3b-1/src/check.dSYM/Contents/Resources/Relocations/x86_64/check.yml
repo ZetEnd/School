@@ -1,0 +1,13 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/zhaojyne/Desktop/P02D13.ID_239635-Team_TL_ripcordj.87b69525_2a1c_4a3b-1/src/check'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _first, symObjAddr: 0x0, symBinAddr: 0x100003790, symSize: 0x140 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _first, symObjAddr: 0x0, symBinAddr: 0x100003790, symSize: 0x140 }
+  - { offsetInCU: 0xFD, offset: 0xFD, size: 0x8, addend: 0x0, symName: _second, symObjAddr: 0x140, symBinAddr: 0x1000038D0, symSize: 0x110 }
+  - { offsetInCU: 0x19F, offset: 0x19F, size: 0x8, addend: 0x0, symName: _third, symObjAddr: 0x250, symBinAddr: 0x1000039E0, symSize: 0x130 }
+  - { offsetInCU: 0x24F, offset: 0x24F, size: 0x8, addend: 0x0, symName: _fourth, symObjAddr: 0x380, symBinAddr: 0x100003B10, symSize: 0x130 }
+  - { offsetInCU: 0x2FF, offset: 0x2FF, size: 0x8, addend: 0x0, symName: _output, symObjAddr: 0x4B0, symBinAddr: 0x100003C40, symSize: 0xC0 }
+  - { offsetInCU: 0x377, offset: 0x377, size: 0x8, addend: 0x0, symName: _in, symObjAddr: 0x570, symBinAddr: 0x100003D00, symSize: 0x130 }
+  - { offsetInCU: 0x427, offset: 0x427, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x6A0, symBinAddr: 0x100003E30, symSize: 0x13B }
+...
