@@ -1,0 +1,13 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/zhaojyne/Desktop/T06D09.ID_239632-1/src/fast_sort'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AF0, symSize: 0xA0 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AF0, symSize: 0xA0 }
+  - { offsetInCU: 0x78, offset: 0x78, size: 0x8, addend: 0x0, symName: _input, symObjAddr: 0xA0, symBinAddr: 0x100003B90, symSize: 0x80 }
+  - { offsetInCU: 0xE2, offset: 0xE2, size: 0x8, addend: 0x0, symName: _quick_sort, symObjAddr: 0x120, symBinAddr: 0x100003C10, symSize: 0x120 }
+  - { offsetInCU: 0x15A, offset: 0x15A, size: 0x8, addend: 0x0, symName: _output, symObjAddr: 0x240, symBinAddr: 0x100003D30, symSize: 0x60 }
+  - { offsetInCU: 0x1A8, offset: 0x1A8, size: 0x8, addend: 0x0, symName: _heapSort, symObjAddr: 0x2A0, symBinAddr: 0x100003D90, symSize: 0xB0 }
+  - { offsetInCU: 0x22E, offset: 0x22E, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0x350, symBinAddr: 0x100003E40, symSize: 0x30 }
+  - { offsetInCU: 0x26E, offset: 0x26E, size: 0x8, addend: 0x0, symName: _siftDown, symObjAddr: 0x380, symBinAddr: 0x100003E70, symSize: 0x111 }
+...
