@@ -1,0 +1,26 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/zhaojyne/Desktop/P01D06.ID_239620-Team_TL_stotchwh.064356ed_fce4_4fa0-1/src/pongv1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _clearScreen, symObjAddr: 0x0, symBinAddr: 0x100003A30, symSize: 0x20 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _ballX, symObjAddr: 0x53C, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x5B, size: 0x8, addend: 0x0, symName: _ballY, symObjAddr: 0x540, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _velocityX, symObjAddr: 0x544, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _velocityY, symObjAddr: 0x548, symBinAddr: 0x10000800C, symSize: 0x0 }
+  - { offsetInCU: 0x9A, offset: 0x9A, size: 0x8, addend: 0x0, symName: _score1, symObjAddr: 0x15B4, symBinAddr: 0x100008014, symSize: 0x0 }
+  - { offsetInCU: 0xAF, offset: 0xAF, size: 0x8, addend: 0x0, symName: _score2, symObjAddr: 0x15B8, symBinAddr: 0x100008018, symSize: 0x0 }
+  - { offsetInCU: 0xC4, offset: 0xC4, size: 0x8, addend: 0x0, symName: _YPlatform1, symObjAddr: 0x15BC, symBinAddr: 0x10000801C, symSize: 0x0 }
+  - { offsetInCU: 0xD9, offset: 0xD9, size: 0x8, addend: 0x0, symName: _YPlatform2, symObjAddr: 0x15C0, symBinAddr: 0x100008020, symSize: 0x0 }
+  - { offsetInCU: 0xEE, offset: 0xEE, size: 0x8, addend: 0x0, symName: _flag, symObjAddr: 0x54C, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0x105, offset: 0x105, size: 0x8, addend: 0x0, symName: _clearScreen, symObjAddr: 0x0, symBinAddr: 0x100003A30, symSize: 0x20 }
+  - { offsetInCU: 0x11A, offset: 0x11A, size: 0x8, addend: 0x0, symName: _CheckPlatform1, symObjAddr: 0x20, symBinAddr: 0x100003A50, symSize: 0x90 }
+  - { offsetInCU: 0x13E, offset: 0x13E, size: 0x8, addend: 0x0, symName: _CheckPlatform2, symObjAddr: 0xB0, symBinAddr: 0x100003AE0, symSize: 0x90 }
+  - { offsetInCU: 0x162, offset: 0x162, size: 0x8, addend: 0x0, symName: _drawBall, symObjAddr: 0x140, symBinAddr: 0x100003B70, symSize: 0x160 }
+  - { offsetInCU: 0x204, offset: 0x204, size: 0x8, addend: 0x0, symName: _TouchWall, symObjAddr: 0x2A0, symBinAddr: 0x100003CD0, symSize: 0x60 }
+  - { offsetInCU: 0x236, offset: 0x236, size: 0x8, addend: 0x0, symName: _NewGame, symObjAddr: 0x300, symBinAddr: 0x100003D30, symSize: 0x50 }
+  - { offsetInCU: 0x25A, offset: 0x25A, size: 0x8, addend: 0x0, symName: _Begin, symObjAddr: 0x350, symBinAddr: 0x100003D80, symSize: 0xC0 }
+  - { offsetInCU: 0x26F, offset: 0x26F, size: 0x8, addend: 0x0, symName: _TouchPlatform, symObjAddr: 0x410, symBinAddr: 0x100003E40, symSize: 0x80 }
+  - { offsetInCU: 0x2BD, offset: 0x2BD, size: 0x8, addend: 0x0, symName: _UpdateScore, symObjAddr: 0x490, symBinAddr: 0x100003EC0, symSize: 0x70 }
+  - { offsetInCU: 0x2E1, offset: 0x2E1, size: 0x8, addend: 0x0, symName: _ENDGAME, symObjAddr: 0x500, symBinAddr: 0x100003F30, symSize: 0x20 }
+  - { offsetInCU: 0x2F6, offset: 0x2F6, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x520, symBinAddr: 0x100003F50, symSize: 0x1C }
+...
