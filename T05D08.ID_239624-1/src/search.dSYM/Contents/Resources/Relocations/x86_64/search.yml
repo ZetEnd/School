@@ -1,0 +1,11 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/zhaojyne/Desktop/T05D08.ID_239624-1/src/search'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C10, symSize: 0xB0 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C10, symSize: 0xB0 }
+  - { offsetInCU: 0x79, offset: 0x79, size: 0x8, addend: 0x0, symName: _input, symObjAddr: 0xB0, symBinAddr: 0x100003CC0, symSize: 0xA0 }
+  - { offsetInCU: 0xC7, offset: 0xC7, size: 0x8, addend: 0x0, symName: _find, symObjAddr: 0x150, symBinAddr: 0x100003D60, symSize: 0x110 }
+  - { offsetInCU: 0x15B, offset: 0x15B, size: 0x8, addend: 0x0, symName: _MO, symObjAddr: 0x260, symBinAddr: 0x100003E70, symSize: 0x70 }
+  - { offsetInCU: 0x1BB, offset: 0x1BB, size: 0x8, addend: 0x0, symName: _sigma, symObjAddr: 0x2D0, symBinAddr: 0x100003EE0, symSize: 0x90 }
+...
